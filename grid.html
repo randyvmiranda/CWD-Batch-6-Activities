@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!-- Style CSS -->
+     <link rel="stylesheet" href="style.css">
+     <!-- Materials Icon -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <style>
+        .box {
+            padding 10px;
+            text-align: center;
+            background-color: rgb(134, 250, 124);
+        }
+     </style>
+    <title >Grid</title>
+</head>
+<body class="#eceff1 blue-grey lighten-5">
+    <div class="navbar-fixed">
+        <nav class="green">
+        <div class="container">
+            <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo center">Grid</a>
+              <a href="index.html" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i class="red-text"></a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="index.html">Home</a> 
+              </li>
+              <li>
+                <a href="about.html">About</a> 
+              </li>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              <li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+        <ul id="slide-out" class="sidenav">
+            <li><div class="user-view">
+              <div class="background">
+                <img src="images/office.jpg">
+              </div>
+              <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+              <a href="#name"><span class="white-text name">John Doe</span></a>
+              <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+          </ul>
+        <div class="container">
+            <div class="fixed-action-btn toolbar">
+                <a class="btn-floating btn-large red">
+                  <i class="large material-icons">mode_edit</i>
+                </a>
+                <ul>
+                  <li><a class="btn blue"><i class="material-icons">insert_chart</i></a></li>
+                  <li><a class="btn yellow"><i class="material-icons">format_quote</i></a></li>
+                  <li><a class="btn green"><i class="material-icons">publish</i></a></li>
+                  <li><a class="btn purple"><i class="material-icons">attach_file</i></a></li>
+                </ul>
+          </div>
+            <h2 class="white-text">Grid</h2>
+            <h4 class="yellow-text">COLUMNS</h4>
+                <div class="row grey-text">
+                    <div class="col s1">
+                    <div class="box">A</div>
+                </div>
+                    <div class="col s1">
+                    <div class="box">B</div>
+                </div>
+                    <div class="col s1">
+                    <div class="box">C</div>
+                </div>
+                    <div class="col s1">
+                    <div class="box">D</div>
+                </div>
+                    <div class="col s1">
+                     <div class="box">E</div>
+                    </div>
+                    <div class="col s1">
+                    <div class="box">F</div>
+                </div>
+                    <div class="col s1">
+                    <div class="box">G</div>
+                </div>
+                    <div class="col s1">
+                    <div class="box">H</div>
+                </div>
+                    <div class="col s1">
+                    <div class="box">I</div>
+                </div>
+                    <div class="col s1">
+                    <div class="box">J</div>
+                </div>
+                    <div class="col s1">
+                    <div class="box">K</div>
+                </div>
+                    <div class="col s1">
+                    <div class="box">L</div>
+                </div> 
+                <BR>
+                <h4 class="blue-text">COLUMNS AND ROWS</h4>
+                <div class="row">
+                    <div class="col s12">
+                    <div class="box background-color purple"><span class="flow-text"><div class="yellow-text">This div is 12-columns wide on all screen sizes</div> </div>
+                    <BR>
+                        
+                    <div class="col s6">
+                    <div class="box background-color purple"><div class="yellow-text">6-columns (one-half)</div></div>
+                    </div>
+                    <div class="col s6">
+                        <div class="box background-color purple"><div class="yellow-text">6-columns (one-half)</div></div>
+                        </div>
+                        <BR><BR>
+                </div>
+                    <h4 class="blue-text">OFFSETS</h4>
+                    <div class="row">
+                        <div class="col s12">
+                        <div class="box background-color #03a9f4 light-blue"><span class="flow-text"><div class="yellow-text">This div is 12-columns wide on all screen sizes</div></span></div>
+                        <BR>
+                        <div class="row">
+                        <div class="col s6 offset-s6">
+                        <div class="box background-color #03a9f4 light-blue">><span class="flow-text"><div class="yellow-text">6-columns (offset-by-6)</div></span></div>
+                        </div>
+                    </div>
+                        <h5 class="yellow-text">PUSH and PULL</h5>
+                        <div class="row">
+                            <div class="col s7 push-s5">
+                                <div class="box"><span class="flow-text">This div is 7-columns wide on pushed to the right by 5-columns.</span></div>
+                                </div>
+                                <div class="col s5 pull-s7">
+                                <div class="box"><span class="flow-text">5-columns wide pulled to the left by 7-columns.</span></div>
+                                </div>
+                        </div>
+                    
+                        <h4 class="blue-text">Example Promotion Table</h4>
+                        <div class="divider"></div>
+                    </nav>
+                        <section class="section grey lighten-4">
+                            <div class="container">
+                    
+                            <div class="row center">
+                                    <div class="col s12 m4 l4">
+                                 <i class="material-icons large blue-text">access_time</i>
+                                    <h5>Speeds up development</h5>
+                                    <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+                                </div>
+                            <div class="col s12 m4 l4">
+                                <i class="material-icons large blue-text">face</i>
+                                <h5>User Experience Focused</h5>
+                                <p>By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+                            </div>
+                            <div class="col s12 m4 l4">
+                                <i class="material-icons large blue-text">important_devices</i>
+                                <h5>Easy to work with</h5>
+                                <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+                            </div>
+                            </div>
+                            </div>
+                        </section>
+               <section class="section grey">
+                <div class="row">
+                    <div class="grid-example col s12">
+                        <div class="box background-color white">
+                        <span class="flow-text"><div class="blue-text"> I am always full-width (col s12)</div></span>
+                    </div>
+                    </div>
+                    <BR><BR>
+                    <div class="grid-example col s12 m6">
+                        <div class="box background-color white">
+                        <span class="flow-text"><div class="blue-text">I am full-width on mobile (col s12 m6)</div></span>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <section class="section green">
+                  <div class="row">
+                  <div class="col s12 m3 l3">
+                    <div class="box background-color purple"><span class="flow-text"><div class="yellow-text">3-columns (one-fourth)</div></span></div>
+                    </div>
+                    <div class="col s12 m9 l9">
+                        <div class="box background-color purple"><span class="flow-text"><div class="yellow-text">9-columns (three-fourth)</div></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m3 l3">
+                            <div class="box background-color purple"><span class="flow-text"><div class="yellow-text">3-columns (one-fourth)</div></span></div>
+                    </div>
+                    <div class="col s12 m9 l9">
+                        <div class="box background-color purple"><span class="flow-text"><div class="yellow-text">9-columns (three-fourth)</div></span></div>
+                        </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 m3 l3">
+                                    <div class="box background-color purple"><span class="flow-text"><div class="yellow-text">3-columns (one-fourth)</div></span></div>
+                                </div>
+                                <div class="col s12 m9 l9">
+                                    <div class="box background-color purple"><span class="flow-text"><div class="yellow-text">9-columns (three-fourth)</div></span></div>
+                                    </div>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 card-panel orange"><div class="blue-text center-align">s12</div></div>
+                                <div class="col s12 m4 l2 card-panel blue"><div class="yellow-text center-align"><p>s12 m4</p></div></div>
+                                <div class="col s12 m4 l8 card-panel indigo"><div class="yellow-text center-align"><p>s12 m4</p></div></div>
+                                <div class="col s12 m4 l2 card-panel light-pink"><div class="blue-text center-align"><p>s12 m4</p></div></div>
+                                <div class="col s12 m6 l3 card-panel blue"><div class="white-text center-align"><p>s12 m6 l3</p></div></div>
+                                <div class="col s12 m6 l3 card-panel green"><div class="white-text center-align"><p>s12 m6 l3</p></div></div>
+                                <div class="col s12 m6 l3 card-panel red"><div class="grey-text center-align"><p>s12 m6 l3</p></div></div>
+                                <div class="col s12 m6 l3 card-panel yellow"><div class="grey-text center-align"><p>s12 m6 l3</p></div></div>
+                            </div>
+                                </section>
+                     
+    </div>
+    
+            
+        <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav(
+        edge: 'right',
+    inDuration: 1000,
+    outDuration: 1000,
+    );
+  });
+</script>
+
+
+
+</body>
+</html>

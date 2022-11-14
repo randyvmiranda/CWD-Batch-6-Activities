@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!-- Style CSS -->
+     <link rel="stylesheet" href="style.css">
+     <!-- Materials Icon -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <title>Telecall Creative Web Design</title>   
+</head>
+<body class="#eceff1 blue-grey lighten-5">
+    <div class="navbar-fixed">
+      <nav class="green">
+      <div class="container">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center">CWD Batch 6</a>
+        </div>
+      </div>
+      </nav>
+    </div>
+    
+    <div class="container">
+        <h4 class="blue-text">Date Picker</h4>
+            <div class="form">
+            <div class="input-field">
+                <input type="text" class="datepicker">
+                <label for="date">Date</label>
+                <h4 class="blue-text">Time Picker</h4>
+                <div class="input-field">
+                    <input type="text" class="timepicker">
+                    <label for="date">Time</label> 
+            </div>
+         </div>
+        </div>
+        <h4 class="green-text">Chips</h4>
+        <div class="chip">
+          <img src="images/image15.jpg" alt="Contact person">
+          John Paul
+          <div class="chip">
+          Tag
+            <i class="close material-icons indigo-text">close</i>
+            </div>
+       </div>
+       <div class="chip">
+        <img src="images/image16.jpg" alt="Contact person">
+        John Paul
+        <div class="chip">
+        Tag
+          <i class="close material-icons indigo-text">close</i>
+          </div>
+     </div>
+    </div>
+    <div class="container">
+        <section class="grey lighten-5">
+        <h4 class="purple-text">Radio Buttons</h4>
+        <form action="#">
+            <p>
+              <label>
+                <input name="group1" type="radio" checked />
+                <span>Monday</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="group1" type="radio" />
+                <span>Tuesday</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input class="with-gap" name="group1" type="radio"  />
+                <span>Wednesday</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="group1" type="radio" />
+                <span>Thursday</span>
+              </label>
+            </p>
+            <p>
+                <label>
+                  <input name="group1" type="radio" disabled="disabled" />
+                  <span>Friday</span>
+                </label>
+              </p>
+          </form>
+        </section>
+    </div>
+
+ <!-- Jquery CDN -->
+ <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.datepicker').datepicker();
+  });
+
+  $(document).ready(function() {
+    $('.timepicker').timepicker();
+  });
+</script>
+
+</body>
+</html>
